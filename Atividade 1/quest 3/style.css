@@ -1,0 +1,87 @@
+#handhold{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#desktop{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#tv{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.verde{
+    background-color: green;
+    width: 100vw;
+    display: none
+}
+
+.azul{
+    background-color: blue;
+    width: 100vw;
+    display: none
+}
+
+.roxo{
+    background-color: blueviolet;
+    width: 100vw;
+    display: none
+}
+
+
+@media (min-width:0px) and (max-width:778px){
+       .verde{
+               display: block;
+               height: 100vh;
+       }
+      #handhold{
+               display: block;
+      }
+}
+
+@media (min-width:779px) and (max-width:1279px){
+
+    .verde{
+            display: block;
+            height: 50vh;
+    }
+
+    .azul{ 
+           display: block;
+           height: 50vh;
+    }
+
+    #desktop{
+            display: block;
+    }
+}
+
+@media (min-width:1280px){
+
+     .verde{
+            display: block;
+            height: 20vh; 
+     }
+
+     .azul{ 
+           display: block;
+           height: 20vh;
+     }
+
+     .roxo{
+           display: block;
+           height: 20vh;
+
+     }
+    
+     #tv{
+          display: block;
+     }
+
+}

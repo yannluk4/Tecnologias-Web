@@ -1,0 +1,52 @@
+#cores{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width:320px){
+    #cores{
+        background-color: black;
+    }
+}
+
+@media (min-width:480px){
+    #cores{
+        background-color: lightblue;
+    }
+}
+
+@media (min-width:600px){
+    #cores{
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width:768px){
+    #cores{
+        background-color: lightyellow;
+    }
+}
+
+@media (min-width:800px){
+    #cores{
+        background-color: brown;
+    }
+}
+
+@media (min-width:1024px){
+    #cores{
+        background-color: darkblue;
+    }
+}
+
+@media (min-width:1280px){
+    #cores{
+        background-color: darkgreen;
+    }
+}
+
+@media (min-width:1440px){
+    #cores{
+        background-color: darkred;
+    }
+}
