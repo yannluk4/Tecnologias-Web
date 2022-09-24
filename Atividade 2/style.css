@@ -216,22 +216,22 @@ p{
   }
 
   #margem18 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
   }
 
   #margem18 .bloco:nth-child(1) {
-    flex-grow: 2;
+      flex-grow: 2;
   }
 
   #margem18 .bloco:nth-child(2) {
-    flex-grow: 1;
+      flex-grow: 1;
   }
   
   #margem18 .bloco:nth-child(3) {
-    flex-grow: 2;
+      flex-grow: 2;
   }
 
 
