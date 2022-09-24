@@ -114,27 +114,27 @@ p{
   }
 
   #margem10 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    margin-inline: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      margin-inline: auto;
   }
 
   #margem10 .bloco {
-    height: inherit;
-}
+      height: inherit;
+  }
 
-#margem11 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+  #margem11 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
   }
 
   #margem11 .bloco:nth-child(2) {
-    background-color: red !important;
+      background-color: red !important;
   }
 
   #margem12{
@@ -159,7 +159,7 @@ p{
   }
 
   #margem13 .bloco:nth-child(2){
-     background-color: red;
+      background-color: red;
   }
 
   #margem13 .bloco:nth-child(3){
@@ -177,6 +177,61 @@ p{
   #margem14 .bloco:nth-child(2) {
        background-color: red !important;
        align-self: flex-start;
+  }
+
+  #margem15 {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: flex-start;
+  }
+
+  #margem15 .bloco:nth-child(2) {
+       background-color: red !important;
+       align-self: flex-end;
+  }
+
+  #margem16 {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: flex-start;
+  }
+
+  #margem16 .bloco:nth-child(2) {
+      background-color: red !important;
+      height: inherit;
+  }
+
+  #margem17 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #margem17 .bloco:nth-child(2) {
+      background-color: red !important;
+      flex-grow: 1;
+  }
+
+  #margem18 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #margem18 .bloco:nth-child(1) {
+    flex-grow: 2;
+  }
+
+  #margem18 .bloco:nth-child(2) {
+    flex-grow: 1;
+  }
+  
+  #margem18 .bloco:nth-child(3) {
+    flex-grow: 2;
   }
 
 
